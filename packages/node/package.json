@@ -37,7 +37,7 @@
     "@counterfactual/machine": "0.1.1",
     "@counterfactual/types": "0.0.7",
     "@firebase/util": "0.*",
-    "@firebase/app-types" : "0.*",
+    "@firebase/app-types" : "^0.3.5",
     "ethers": "4.0.26",
     "eventemitter3": "^3.1.0",
     "p-queue": "^3.1.0",
