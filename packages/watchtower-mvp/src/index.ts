@@ -13,5 +13,5 @@ const API_TIMEOUT = 5 * 60 * 1000;
   const server = await api.listen(port);
   server.setTimeout(API_TIMEOUT);
 
-  Log.info("API is now ready", { tags: { port } });
+  Log.info("Watchtower API is now ready", { tags: { port } });
 })();
