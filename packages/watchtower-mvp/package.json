@@ -1,0 +1,41 @@
+{
+  "name": "watchtower-mvp",
+  "version": "0.1.0",
+  "description": "Minimal watchtower service",
+  "author": "Piotr Kosiński <piotrkosinski@gmail.com>",
+  "homepage": "https://github.com/kosecki123/monorepo#readme",
+  "license": "ISC",
+  "main": "src/index.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kosecki123/monorepo.git"
+  },
+  "scripts": {
+    "serve": "node dist",
+    "start": "env-cmd development --fallback ts-node src/",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/kosecki123/monorepo/issues"
+  },
+  "devDependencies": {
+    "env-cmd": "^8.0.2",
+    "ts-node": "^8.0.3",
+    "typescript": "^3.3.3333"
+  },
+  "dependencies": {
+    "@ebryn/jsonapi-ts": "^0.1.2",
+    "@koa/cors": "^2.2.3",
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-compose": "^4.1.0",
+    "logepi": "^1.0.5"
+  }
+}
